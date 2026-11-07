@@ -1,0 +1,36 @@
+.button {
+    padding: 8px;
+    border-radius: 8px;
+    font-size: large;
+    max-height: fit-content;
+}
+
+.key-container {
+    padding: 16px;
+    border-radius: 4px;
+    min-height: 200px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    box-sizing: border-box;
+}
+
+.ah {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+}
+
+.key-info {
+    padding: 16px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: fit-content;
+    justify-content: center;
+}
+
+.info-row {
+    display: flex;
+    gap: 4px;
+}
